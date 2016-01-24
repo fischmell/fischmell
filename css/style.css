@@ -187,11 +187,6 @@ a {
 	margin-bottom: 0;
 	margin-right: 5.0rem;
 }
-@media (max-width: 80.0rem) {
-	.navigation-list {
-		margin-right: 0;
-	}
-}
 .navigation-item {
 	float: left;
 	margin-bottom: 0;
@@ -203,13 +198,27 @@ a {
 	top: .5rem;
 	height: 3.0rem;
 }
+@media (max-width: 80.0rem) {
+	.navigation-list {
+		margin-right: 0;
+	}
+}
+@media (max-width: 50.0rem) {
+	.navigation .img {
+		position: relative;
+		top: 0.0rem;
+		height: 2.0rem;
+	}
+	.navigation .container {
+		padding: 0 1rem;
+	}
+}
 .navigation.footer {
     height: 7.5rem;
     background-color: #242013;
     /*padding-top: 2.5rem;*/
 		padding-bottom: 0rem;
 }
-
 .footer .img {
 	height: 6rem;
 }
